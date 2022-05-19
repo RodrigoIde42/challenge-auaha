@@ -1,0 +1,83 @@
+.searchBar-header {
+    margin-right: 70px;
+}
+
+.searchInput-header {
+    position:relative;
+    z-index: 2;
+
+    width: 370px;
+}
+
+.empty {
+    background: url('../../icons/magnifying-glass-solid.svg') no-repeat right center;
+    background-position-x: 95%;
+    background-size: 18px;
+}
+
+.searchSuggestions-header {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 42px;
+
+    width: 370px;
+
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.searchSuggestionsHeader-header {
+    padding-top: 46px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+ul {
+    width: 90%;
+
+    list-style-type: none;
+    padding: 15px 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #999999;
+}
+
+.searchSuggestionsItems-header {
+    background-color: #F8F8F8;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 15px;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.searchSuggestionsItems-header img {
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .searchBar-header {
+        margin-right: 10vw;
+    }
+    
+    .searchInput-header {
+        width: 50vw;
+    }
+
+    .searchSuggestions-header {
+        width: 50vw;
+    }
+}

@@ -1,0 +1,44 @@
+.feedback-section {
+    display: flex;
+    flex-direction: column;
+
+    padding: 75px 0;
+}
+
+.feedbackTitle {
+    text-align: center;
+}
+
+.feedbackContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.feedbackItem {
+    background-color: #F8F8F8;
+}
+
+.userFeedback {
+    padding: 20px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .feedback-section {
+        padding: 20px 0;
+    }
+
+    .feedbackContent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feedbackItem {
+        width: 100%;
+    }
+}

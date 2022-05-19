@@ -1,0 +1,66 @@
+.fa-user.userHovered {
+    opacity: .5;
+}
+
+.myAccount-header {
+    display: flex;
+    gap: 10px;
+}
+
+.account-header {
+    position: relative;
+}
+
+.accountOptions-header {
+    z-index: 1;
+    background-color: #fff;
+
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -40px;
+
+    width: 232px;
+
+    box-shadow: 0 3px 6px 1px rgba(0, 0, 0, .2);
+}
+
+.accountOptions-header::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.signInOptions-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 0;
+}
+
+.otherOptions-header {
+    background-color: #F8F8F8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 1.3rem;
+
+    padding: 15px 0;
+    
+    font-size: 12px;
+    color: #999999;
+
+    cursor: pointer;
+}

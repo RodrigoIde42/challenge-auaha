@@ -1,0 +1,32 @@
+.cartProducts {
+    background-color: #fff;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productDescInfo-cartProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.productPriceInfo-cartProducts {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.fa-xmark {
+    cursor: pointer;
+}
+
+.gray-txt {
+    color: #999999;
+}

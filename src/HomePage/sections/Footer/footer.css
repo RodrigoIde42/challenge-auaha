@@ -1,0 +1,103 @@
+footer {
+    background-color: #F8F8F8;
+}
+
+.footerContent {
+    margin-top: 75px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-inst-help {
+    width: 45%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment-followUs {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerContent h4 {
+    font-size: 18px;
+}
+
+footer p:hover:not(.copyrightContainer p) {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.contact i, .contact p:not(.contact p:last-child) {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.payment i, .followUs i {
+    font-size: 25px;
+}
+
+.paymentIcons {
+    width: 70%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.copyrightContainer {
+    background-color: #fff;
+    padding: 10px;
+
+    text-align: center;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .footerContent {
+        flex-direction: column;
+        gap: 20px;
+
+        padding: 30px;
+    }
+
+    .footerContent h4 {
+        font-size: 16px;
+    }
+
+    .contact-inst-help {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payment-followUs {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact i, .contact p:not(.contact p:last-child) {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .payment i, .followUs i {
+        font-size: 20px;
+    }
+
+    .paymentIcons {
+        width: 70%;
+    }
+
+    .icons {
+        gap: 10px;
+    }
+}

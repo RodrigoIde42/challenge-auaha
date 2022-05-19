@@ -1,0 +1,49 @@
+.newTrending-section {
+    width: 75% !important;
+
+    display: flex;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.newTrending-section img {
+    width: 645px;
+    height: 460px;
+}
+
+.newsContainer, .trendingContainer {
+    position: relative;
+
+    cursor: pointer;
+}
+
+.newsContainer p, .trendingContainer p {
+    position: absolute;
+    top: 38%;
+    left: 25%;
+
+    color: #fff;
+    font: normal normal normal 90px/113px Great Vibes;
+
+    filter: none !important;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .newTrending-section {
+        width: 80% !important;
+        flex-direction: column;
+    }
+
+    .newTrending-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .newsContainer p, .trendingContainer p {
+        top: 65%;
+        left: 70%;
+
+        font-size: 30px;
+    }
+}

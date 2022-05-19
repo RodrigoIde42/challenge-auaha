@@ -1,0 +1,59 @@
+.carousel {
+    overflow: hidden;
+
+    position: relative;
+}
+
+.inner {
+    background-color: #F8F8F8;
+
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carouselItem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows {
+    width: 80%;
+
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+    display: flex;
+    justify-content: space-between;;
+}
+
+.fa-angle-left, .fa-angle-right {
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.changeImageButton {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+
+    display: flex;
+    gap: 20px;
+}
+
+.fa-circle {
+    color: #fff;
+}
+
+.active .fa-circle {
+    color: #000;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .changeImageButton {
+        top: 80%;
+        left: 40%;
+    }
+}

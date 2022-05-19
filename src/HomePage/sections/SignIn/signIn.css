@@ -1,0 +1,44 @@
+.signIn-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signInTitleNsubTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: -5px;
+
+    padding: 25px 0;
+}
+
+.signInForm {
+    width: 100%;
+    display: flex;
+}
+
+.signInForm form {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signInForm input {
+    width: 40%;
+    padding: 12px 0 12px 20px;
+}
+
+.signInForm button {
+    background-color: #222;
+    color: #fff;
+
+    width: 15%;
+    border-radius: 50px;
+}
+
+.signInForm button:hover {
+    opacity: .8;
+}

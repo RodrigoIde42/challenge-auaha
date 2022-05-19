@@ -1,0 +1,26 @@
+.info {
+    background-color: #F8F8F8;
+}
+
+.infoContent {
+    display: flex;
+    justify-content: space-around;
+
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 30px;
+}
+
+.textInfo {
+    display: flex;
+    gap: 15px;
+
+    font-size: 14px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .infoContent {
+        width: 100%;
+    }
+}

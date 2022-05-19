@@ -1,0 +1,41 @@
+.promotions-section {
+    position: relative;
+}
+
+.promotionsTitle {
+    text-align: center;
+}
+
+.promotionsContainer {
+    width: 95%;
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: stretch;
+
+    text-align: center;
+}
+
+.promotionsContainer img {
+    width: 320px;
+    height: 320px;
+}
+
+.promotionCarousel {
+    display: inline-flex;
+    gap: 20px;
+
+    transition: transform .5s;
+}
+
+.promotionArrows {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

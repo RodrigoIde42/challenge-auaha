@@ -1,0 +1,52 @@
+html {
+    font: normal normal normal 14px/25px Lato;
+}
+
+section:not(.hero-section) {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.focused {
+    outline: 1px solid #000 !important;
+}
+
+.focused::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+.focused::-moz-placeholder {
+    opacity: 1;
+}
+
+.focused::-ms-placeholder {
+    opacity: 1;
+}
+
+.focused::placeholder {
+    opacity: 1;
+}
+
+input[type="text"], input[type="email"], input[type="search"] {
+    outline: none;
+
+    background-color: #F8F8F8;
+    border-radius: 50px;
+    padding: .5rem;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+}
