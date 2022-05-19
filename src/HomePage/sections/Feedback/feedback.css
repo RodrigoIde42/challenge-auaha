@@ -28,7 +28,7 @@
     padding: 20px;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1024px) {
     .feedback-section {
         padding: 20px 0;
     }

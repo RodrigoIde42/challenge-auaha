@@ -29,7 +29,7 @@
     filter: none !important;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1024px) {
     .newTrending-section {
         width: 80% !important;
         flex-direction: column;

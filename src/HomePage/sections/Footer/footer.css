@@ -62,7 +62,7 @@ footer p:hover:not(.copyrightContainer p) {
     text-align: center;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1024px) {
     .footerContent {
         flex-direction: column;
         gap: 20px;

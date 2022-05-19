@@ -63,7 +63,7 @@
     object-fit: contain;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1024px) {
     .navBar-header {
         width: 100%;
     }

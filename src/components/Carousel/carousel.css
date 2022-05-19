@@ -51,7 +51,7 @@
     color: #000;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1024px) {
     .changeImageButton {
         top: 80%;
         left: 40%;

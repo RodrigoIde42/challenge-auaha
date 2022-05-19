@@ -68,7 +68,7 @@ ul {
     padding-right: 15px;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1024px) {
     .searchBar-header {
         margin-right: 10vw;
     }
